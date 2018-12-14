@@ -225,7 +225,7 @@ func Subscribe(tag string, handlers ...Handler) {
 	defaultDispatcher.Subscribe(tag, handlers...)
 }
 
-// Unsubscribe unsubscribes handlers from the defualt event dispatcher for
+// Unsubscribe unsubscribes handlers from the default event dispatcher for
 // events with given tag. If no handlers are provided, all handlers for
 // the given tag will be unsubscribed.
 func Unsubscribe(tag string, handlers ...Handler) {
@@ -246,7 +246,7 @@ func PublishSync(event Event) {
 }
 
 // Publish publishes an event using the default event dispatcher and calls each
-// handlers in a separete goroutine. It returns a channel which can be used to
+// handlers in a separate goroutine. It returns a channel which can be used to
 // get notified when all event handlers have processed the event.
 func Publish(event Event) <-chan bool {
 	return defaultDispatcher.Publish(event)

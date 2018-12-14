@@ -15,3 +15,7 @@ vet: ## run go vet
 .PHONY: coverage
 coverage: ## generate code coverage
 	scripts/coverage
+
+.PHONY: misspell
+misspell: ## check spelling in go files
+	misspell *.go
