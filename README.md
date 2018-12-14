@@ -32,7 +32,7 @@ evt := gevt.NewEvent("foo", gevt.EventData{"bar": 1})
 gevt.Unsubscribe("foo", handler)
 ```
 
-Check [example_test.go](example_test.go) of
+Check [example_test.go](example_test.go) or
 [godoc](https://godoc.org/github.com/martinohmann/gevt) for more usage
 examples.
 
