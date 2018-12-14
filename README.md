@@ -1,6 +1,9 @@
 gevt
 ====
 
+[![Build Status](https://travis-ci.org/martinohmann/gevt.svg)](https://travis-ci.org/martinohmann/gevt)
+[![codecov](https://codecov.io/gh/martinohmann/gevt/branch/master/graph/badge.svg)](https://codecov.io/gh/martinohmann/gevt)
+[![Go Report Card](https://goreportcard.com/badge/github.com/martinohmann/gevt)](https://goreportcard.com/report/github.com/martinohmann/gevt)
 [![GoDoc](https://godoc.org/github.com/martinohmann/gevt?status.svg)](https://godoc.org/github.com/martinohmann/gevt)
 
 Dead simple event dispatcher. Supports both sync and async dispatching of events.
